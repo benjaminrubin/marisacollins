@@ -1,0 +1,108 @@
+main ul {
+    max-width: 800px;
+    list-style: none;
+    /* text-align: center;     */
+    padding: 0;
+    padding-top: 3rem;
+    line-height: 4rem;
+    margin: auto auto;
+}
+
+main>div {
+    max-width: 800px;
+    margin: auto auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main ul li {
+    padding-bottom: 1rem;
+}
+
+
+/* Commercials and Stills links */
+
+main>ul>li>a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    transition: .32s;
+    padding: 0 .3rem;
+}
+
+main>ul>li>a:hover {
+    color: aqua;
+    /* background-color: aqua; */
+}
+
+main a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+div>a {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2rem;
+}
+
+
+/* Contact Link */
+
+#contact-link {
+    font-size: 1.75rem;
+    transition: .32s;
+    padding: 0 .5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#contact-link:hover {
+    color: #4CAF4F;
+}
+
+
+/* "+" Link */
+
+#more-link {
+    font-size: 3.5rem;
+    font-weight: 200;
+    /* font-family: 'Heebo', sans-serif; */
+    font-family: Helvetica, sans-serif;
+    transition: .32s;
+    color: aqua;
+}
+
+.home-link-faded {
+    color: #E2E2E2 !important;
+}
+
+#more-link:hover {
+    color: #F6C2BF;
+}
+
+@media (min-width: 600px) {
+    main ul li {
+        padding-bottom: 2rem;
+    }
+    main>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 5.25rem;
+        letter-spacing: 2px;
+    }
+    main>div {
+        margin-top: 5rem;
+        flex-direction: row;
+        align-items: center;
+    }
+    #more-link {
+        font-size: 6.5rem;
+    }
+}

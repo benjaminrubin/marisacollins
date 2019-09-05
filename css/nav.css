@@ -1,0 +1,141 @@
+.desktop-nav {
+    display: none;
+    max-width: 400px;
+}
+
+.desktop-nav>ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.desktop-nav>ul>li {
+    margin-left: .8rem;
+    margin-right: .8rem;
+    text-align: center;
+    /* width: 130px; */
+}
+
+.desktop-nav>ul>li a {
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    /* font-weight: 600; */
+}
+
+.desktop-nav>ul>li a:hover {
+    color: black;
+}
+
+.selected-page {
+    color: turquoise !important;
+    padding-bottom: .6rem;
+    border-bottom: 0.5px solid turquoise;
+}
+
+.mobile-header {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (min-width: 767px) {
+    .desktop-nav {
+        display: flex;
+    }
+    .mobile-header {
+        display: none;
+    }
+}
+
+
+/* Mobile Nav Related */
+
+.menu-toggle {
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    background: rgba(52, 58, 64, 0.5);
+    line-height: 50px;
+    z-index: 999;
+}
+
+.menu-toggle:focus,
+.menu-toggle:hover {
+    color: #fff;
+}
+
+.menu-toggle:hover {
+    background: #343a40;
+    cursor: pointer !important;
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    z-index: 80;
+    top: 0;
+    right: -250px;
+    height: 100vh;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    width: 250px;
+    font-size: 1.2rem;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper.active {
+    right: 0;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    /* font-size: 1.8rem; */
+}
+
+.sidebar-nav a:hover {
+    color: black;
+}
+
+.sidebar-nav li {
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+}
+
+.sidebar-brand {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem !important;
+}
+
+@media (min-width: 767px) {
+    .menu-toggle {
+        display: none;
+    }
+}

@@ -1,0 +1,150 @@
+/* Font imports */
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:500|Noto+Serif:700i&display=swap'); */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    /* background-color: #f8f9fa; */
+    color: black;
+    background-color: white;
+    font-size: 12px;
+    /* Font smoothing */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.full-page {
+    height: 100vh;
+}
+
+.full-page footer {
+    position: absolute;
+    bottom: 10px;
+}
+
+p {
+    /* font-size: .8rem; */
+}
+
+footer {
+    /* position: absolute; */
+    bottom: 10px;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header {
+    cursor: default;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: .1rem;
+    font-size: 1.75rem;
+    transition: .32s;
+    width: max-content;
+}
+
+header h4 {
+    margin-top: 0;
+    /* font-family: 'Heebo', sans-serif; */
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: .32s;
+    width: max-content;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+footer {
+    cursor: default;
+    text-align: center;
+    font-weight: 400;
+    color: gray;
+}
+
+footer p {
+    margin-bottom: .4rem;
+    /* font-size: .75rem; */
+}
+
+.card {
+    border: none;
+}
+
+@media (min-width: 767px) {
+    html,
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    footer p {
+        font-size: .85rem;
+    }
+}
+
+#branja-url {
+    color: gray;
+}
+
+#branja-logo {
+    filter: grayscale(100%);
+    transition: .12s;
+    position: relative;
+    left: 2px;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+#branja-url:hover #branja-logo {
+    filter: grayscale(0%);
+}
+
+@media (min-width: 767px) {
+    #branja-logo {
+        width: 1.675rem;
+        height: 1.675rem;
+    }
+}
