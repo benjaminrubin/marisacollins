@@ -21,17 +21,33 @@
     /* width: 130px; */
 }
 
-.desktop-nav>ul>li a {
+
+/* Link Buttons */
+
+.link-btn {
     text-decoration: none;
     color: white;
     padding: .6rem .8rem;
     text-transform: uppercase;
     /* font-weight: 600; */
-    transition: .32s;
+    transition: 0.32s;
+    width: max-content;
+    outline: 0.5px solid white;
 }
 
-.desktop-nav>ul>li a:hover {
-    outline: 0.5px solid white;
+.link-btn a {
+    text-decoration: none;
+    color: white;
+    transition: 0.32s;
+}
+
+.link-btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.link-btn:hover a {
+    color: rgb(216, 177, 177);
 }
 
 .selected-page {
@@ -100,7 +116,7 @@
 
 #sidebar-wrapper.active {
     right: 0;
-    width: 250px;
+    width: 200px;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
@@ -114,7 +130,7 @@
 
 .sidebar-nav a {
     text-decoration: none;
-    color: gray;
+    color: black;
     text-transform: uppercase;
     /* font-weight: 600; */
     /* font-size: 1.8rem; */
