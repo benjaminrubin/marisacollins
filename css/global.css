@@ -1,17 +1,12 @@
-/* Font imports */
-
-
-/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:500|Noto+Serif:700i&display=swap'); */
-
 html,
 body {
     position: relative;
     height: 100%;
-    font-family: 'Overpass', sans-serif;
+    /* font-family: 'Overpass', sans-serif; */
     font-weight: 600;
     /* background-color: #f8f9fa; */
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgb(85, 85, 85);
     font-size: 12px;
     /* Font smoothing */
     text-rendering: optimizeLegibility;
@@ -58,9 +53,9 @@ header {
 }
 
 header h1 {
-    font-family: 'Merriweather', serif;
-    font-style: italic;
-    font-weight: bold;
+    font-family: 'Lora', serif;
+    /* font-style: italic; */
+    /* font-weight: bold; */
     text-transform: uppercase;
     margin-bottom: .1rem;
     font-size: 1.75rem;
@@ -70,10 +65,11 @@ header h1 {
 
 header h4 {
     margin-top: 0;
+    font-family: 'Lora', serif;
     /* font-family: 'Heebo', sans-serif; */
     font-weight: 500;
     font-size: 1.5rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: .32s;
     width: max-content;
 }
@@ -94,7 +90,7 @@ footer {
     cursor: default;
     text-align: center;
     font-weight: 400;
-    color: gray;
+    color: white;
 }
 
 footer p {
@@ -126,11 +122,11 @@ footer p {
 }
 
 #branja-url {
-    color: gray;
+    color: white;
 }
 
 #branja-logo {
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     transition: .12s;
     position: relative;
     left: 2px;

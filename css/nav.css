@@ -23,19 +23,20 @@
 
 .desktop-nav>ul>li a {
     text-decoration: none;
-    color: gray;
+    color: white;
     text-transform: uppercase;
     /* font-weight: 600; */
 }
 
 .desktop-nav>ul>li a:hover {
-    color: black;
+    padding-bottom: .6rem;
+    border-bottom: 0.5px solid white;
 }
 
 .selected-page {
-    color: turquoise !important;
+    color: white !important;
     padding-bottom: .6rem;
-    border-bottom: 0.5px solid turquoise;
+    border-bottom: 0.5px solid white;
 }
 
 .mobile-header {
