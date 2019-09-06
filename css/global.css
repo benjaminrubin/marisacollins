@@ -127,7 +127,8 @@ footer p {
 
 #branja-logo {
     /* filter: grayscale(100%); */
-    transition: .12s;
+    filter: brightness(200%) saturate(0%);
+    transition: .32s;
     position: relative;
     left: 2px;
     width: 1.3rem;
@@ -135,7 +136,7 @@ footer p {
 }
 
 #branja-url:hover #branja-logo {
-    filter: grayscale(0%);
+    filter: brightness(100%);
 }
 
 @media (min-width: 767px) {
