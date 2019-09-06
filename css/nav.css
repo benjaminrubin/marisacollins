@@ -32,7 +32,6 @@
     /* font-weight: 600; */
     transition: 0.32s;
     width: max-content;
-    outline: 0.5px solid white;
 }
 
 .link-btn a {
@@ -42,19 +41,18 @@
 }
 
 .link-btn:hover {
-    background-color: white;
+    outline: 0.5px solid white;
     cursor: pointer;
 }
 
-.link-btn:hover a {
-    color: rgb(216, 177, 177);
-}
-
 .selected-page {
-    color: rgb(216, 177, 177) !important;
     background-color: white;
     padding: .6rem .8rem;
     outline: 0.5px solid white;
+}
+
+.selected-page a {
+    color: rgb(216, 177, 177) !important;
 }
 
 .mobile-header {
