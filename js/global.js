@@ -2,6 +2,7 @@ var $homelinks = $(".home-link");
 
 $(document).ready(function() {
 
+
     // Mobile Menu related
 
     $(".menu-toggle").click(function(e) {

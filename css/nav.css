@@ -30,28 +30,21 @@
     padding: .6rem .8rem;
     text-transform: uppercase;
     /* font-weight: 600; */
-    transition: 0.32s;
+    transition: 0.42s;
     width: max-content;
-}
-
-.link-btn a {
-    text-decoration: none;
-    color: white;
-    transition: 0.32s;
+    outline: 0.5px solid rgba(255, 255, 255, 0);
 }
 
 .link-btn:hover {
-    outline: 0.5px solid white;
+    color: white;
     cursor: pointer;
+    text-decoration: none;
+    outline: 0.5px solid rgba(255, 255, 255, 1);
 }
 
 .selected-page {
     background-color: white;
     padding: .6rem .8rem;
-    outline: 0.5px solid white;
-}
-
-.selected-page a {
     color: rgb(216, 177, 177) !important;
 }
 

@@ -12,7 +12,29 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: .72s;
 }
+
+
+/* Fade in animation */
+
+body {
+    animation: fadeInAnimation ease 1.34s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* End of fade in animation */
 
 * {
     box-sizing: border-box;
