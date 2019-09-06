@@ -130,7 +130,7 @@
 }
 
 .sidebar-brand {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
