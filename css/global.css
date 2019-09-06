@@ -2,11 +2,11 @@ html,
 body {
     position: relative;
     height: 100%;
-    /* font-family: 'Overpass', sans-serif; */
+    font-family: 'Red Hat Text', sans-serif;
     font-weight: 600;
     /* background-color: #f8f9fa; */
     color: white;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(216, 177, 177);
     font-size: 12px;
     /* Font smoothing */
     text-rendering: optimizeLegibility;

@@ -24,19 +24,21 @@
 .desktop-nav>ul>li a {
     text-decoration: none;
     color: white;
+    padding: .6rem .8rem;
     text-transform: uppercase;
     /* font-weight: 600; */
+    transition: .32s;
 }
 
 .desktop-nav>ul>li a:hover {
-    padding-bottom: .6rem;
-    border-bottom: 0.5px solid white;
+    outline: 0.5px solid white;
 }
 
 .selected-page {
-    color: white !important;
-    padding-bottom: .6rem;
-    border-bottom: 0.5px solid white;
+    color: rgb(216, 177, 177) !important;
+    background-color: white;
+    padding: .6rem .8rem;
+    outline: 0.5px solid white;
 }
 
 .mobile-header {
