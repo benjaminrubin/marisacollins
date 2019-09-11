@@ -118,6 +118,7 @@ button {
 
 .card {
     transition: .32s;
+    background-color: gray;
 }
 
 .card:hover {
