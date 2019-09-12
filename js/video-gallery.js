@@ -40,7 +40,7 @@ $(document).ready(function() {
         var paragraph = document.createElement("p");
         let parClasses = ['card-text', 'text-center', 'mb-2', 'mt-1'];
         paragraph.classList.add(...parClasses);
-        paragraph.innerHTML = contentArray[i].title + "<br/>" + contentArray[i].subtitle;
+        paragraph.innerHTML = contentArray[i].title;
 
 
         cardBody.appendChild(paragraph);

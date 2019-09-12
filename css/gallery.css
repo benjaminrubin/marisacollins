@@ -2,7 +2,7 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
     display: none;
-    background-color: #e1e6ea;
+    background-color: rgb(161, 101, 101);
 }
 
 #project-title {
@@ -118,7 +118,7 @@ button {
 
 .card {
     transition: .32s;
-    background-color: gray;
+    background-color: rgb(206, 143, 145);
 }
 
 .card:hover {
