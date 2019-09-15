@@ -18,12 +18,12 @@ $(document).ready(function() {
         // console.log(item);
 
         var thumbnailCard = document.createElement("div");
-        let thumbClasses = ['col-sm-12', 'col-md-6', 'col-lg-4', 'thumbnail-card'];
+        let thumbClasses = ['col-sm-12', 'col-md-6', 'col-lg-4', 'thumbnail-card', 'px-4'];
 
         thumbnailCard.classList.add(...thumbClasses);
 
         var card = document.createElement("div");
-        let cardClasses = ['card', 'mb-4', 'shadow-sm']
+        let cardClasses = ['card', 'mb-4']
         card.classList.add(...cardClasses);
         card.id = i;
 
@@ -115,8 +115,8 @@ $(document).ready(function() {
     $(".card").click(function() {
 
         counter = $(this).get(0).id;
-        console.log("Counter is " + counter);
-        console.log(contentArray[counter]);
+        // console.log("Counter is " + counter);
+        // console.log(contentArray[counter]);
 
         // Populate player with relevant information
         updatePlayer();

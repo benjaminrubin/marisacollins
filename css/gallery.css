@@ -19,7 +19,7 @@
 .stills-player-container {
     max-width: 1000px;
     margin: auto auto;
-    padding-bottom: 1.5rem;
+    /* padding-bottom: 1.5rem; */
 }
 
 .iframe-container {
@@ -39,7 +39,7 @@
 .button-group {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
     max-width: 800px;
@@ -68,22 +68,28 @@ button {
 }
 
 #btn-close {
-    font-size: 2.5rem;
+    /* font-size: 1.5rem; */
     position: relative;
     /* cursor: pointer; */
 }
 
 #btn-close:hover {
     cursor: pointer;
-    color: #319EFF;
+    color: rgb(187, 187, 187);
 }
 
 #btn-close:active {
     color: white;
 }
 
+.player-btn-group {
+    display: flex;
+    flex-direction: row;
+}
+
 .player-btn:hover {
     cursor: pointer;
+    color: rgb(187, 187, 187);
 }
 
 .player-btn:hover g {
@@ -96,6 +102,7 @@ button {
 
 .player-btn-disabled {
     cursor: default !important;
+    color: rgb(187, 187, 187);
 }
 
 .player-btn-disabled g {
@@ -118,13 +125,24 @@ button {
 
 .card {
     transition: .32s;
-    background-color: rgb(206, 143, 145);
+    background-color: #D8B1B1;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.card img {
+    border-radius: 0 !important;
+    transition: .32s;
 }
 
 .card:hover {
-    -webkit-box-shadow: 0px 3px 18px -3px rgba(0, 0, 0, 0.43) !important;
-    box-shadow: 0px 3px 18px -3px rgba(0, 0, 0, 0.43) !important;
+    /* -webkit-box-shadow: 0px 3px 18px -3px rgba(0, 0, 0, 0.43) !important; */
+    /* box-shadow: 0px 3px 18px -3px rgba(0, 0, 0, 0.43) !important; */
     cursor: pointer !important;
+}
+
+.card:hover img {
+    filter: brightness(1.2) contrast(0.8);
 }
 
 img {
