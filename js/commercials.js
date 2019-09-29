@@ -70,6 +70,20 @@ var commercials = [{
         thumbnailUrl: "thumb_10.jpg",
         videoUrl: "https://player.vimeo.com/video/359096948",
         padding: "56.25% 0 0 0",
+    },
+    {
+        title: "Rexulti “Good Works Kitchen“ Commercial",
+        subtitle: "Director: Andrew Wonder / Production Designer: Ron Hellmann / Tomorrow",
+        thumbnailUrl: "thumb_11.jpg",
+        videoUrl: "https://player.vimeo.com/video/362944434",
+        padding: "56.25% 0 0 0",
+    },
+    {
+        title: "Dodge Ram “Time“ Commercial",
+        subtitle: "Geoff Flint PD / Director: Brian Mah / Production Designer: Geoff Flint / Alma Mater",
+        thumbnailUrl: "thumb_12.jpg",
+        videoUrl: "https://player.vimeo.com/video/362944405",
+        padding: "56.25% 0 0 0",
     }
 ];
 
