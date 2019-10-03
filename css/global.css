@@ -86,7 +86,7 @@ header h1 {
 
 header h4 {
     margin-top: 0;
-    font-family: 'Lora', serif;
+    /* font-family: 'Lora', serif; */
     /* font-family: 'Heebo', sans-serif; */
     /* font-weight: 500; */
     font-size: 1.5rem;

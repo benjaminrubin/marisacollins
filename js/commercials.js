@@ -89,7 +89,7 @@ var commercials = [{
         title: "Rexulti “Good Works Kitchen“ Commercial",
         subtitle: "Director: Andrew Wonder / Production Designer: Ron Hellmann / Tomorrow",
         thumbnailUrl: "thumb_13.jpg",
-        videoUrl: "",
+        videoUrl: "https://player.vimeo.com/video/363964570",
         padding: "56.25% 0 0 0",
     }
 ];
