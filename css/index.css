@@ -29,11 +29,6 @@ header h4 {
     /* background-color: rgb(216, 177, 177); */
 }
 
-header img {
-    max-width: 300px;
-    /* position: absolute; */
-}
-
 header .leaves {
     position: absolute;
     z-index: 70;

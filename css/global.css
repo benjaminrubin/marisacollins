@@ -123,8 +123,15 @@ footer p {
     border: none;
 }
 
+
+/* Logos */
+
+.home-logo {
+    max-width: 200px;
+}
+
 .nav-logo {
-    max-width: 340px;
+    max-width: 200px;
 }
 
 .sidebar-logo {
@@ -147,6 +154,13 @@ footer p {
     }
     footer p {
         font-size: .85rem;
+    }
+    /* logos */
+    .home-logo {
+        max-width: 300px;
+    }
+    .nav-logo {
+        max-width: 340px;
     }
 }
 
