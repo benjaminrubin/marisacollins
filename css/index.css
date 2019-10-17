@@ -30,7 +30,8 @@ header h4 {
 }
 
 header img {
-    position: absolute;
+    max-width: 300px;
+    /* position: absolute; */
 }
 
 header .leaves {
@@ -62,6 +63,10 @@ header .leaves {
     background-color: white;
     cursor: pointer;
     color: rgb(216, 177, 177);
+}
+
+.portfolio-btn {
+    letter-spacing: 3px;
 }
 
 @media (min-width: 767px) {

@@ -123,6 +123,14 @@ footer p {
     border: none;
 }
 
+.nav-logo {
+    max-width: 340px;
+}
+
+.sidebar-logo {
+    max-width: 120px;
+}
+
 @media (min-width: 767px) {
     html,
     body {

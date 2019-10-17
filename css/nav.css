@@ -84,11 +84,25 @@
 .menu-toggle:focus,
 .menu-toggle:hover {
     color: #fff;
+    color: rgb(216, 177, 177);
 }
 
 .menu-toggle:hover {
-    background: #343a40;
+    background: #fff;
     cursor: pointer !important;
+}
+
+
+/* Active */
+
+.active {
+    background: rgb(216, 177, 177);
+    color: #fff !important;
+}
+
+.active:hover {
+    background: white !important;
+    color: rgb(216, 177, 177) !important;
 }
 
 #sidebar-wrapper {
