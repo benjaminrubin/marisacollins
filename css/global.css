@@ -57,11 +57,30 @@ p {
     /* font-size: .8rem; */
 }
 
-footer {
-    /* position: absolute; */
-    bottom: 10px;
-    width: 100%;
+
+/* Footer related */
+
+.page-container {
+    min-height: 100vh;
+    position: relative;
 }
+
+.content-wrapper {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+    /*  */
+    font-size: .75rem;
+    text-align: center;
+}
+
+
+/* end of footer related */
 
 .header-container {
     display: flex;
